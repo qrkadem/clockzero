@@ -74,8 +74,8 @@ while True:
     # x = (display.width // 2) - (font_width // 2)
     # y = (display.height // 2) - (font_height // 2)
     
-    draw.rectangle((0, 0, display.width, display.height), fill=WHITE)
-    draw.text((x, y), text, font=font, fill=BLACK)
+    # draw.rectangle((0, 0, display.width, display.height), fill=WHITE)
+    # draw.text((x, y), text, font=font, fill=BLACK)
     
     display.image(image)
     display.show()
