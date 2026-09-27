@@ -67,7 +67,7 @@ while True:
     t = real_time + deltawall
     print(t)
 
-    bbox = font.getbbox(text)
+    bbox = font.getbbox(t)
     font_width = bbox[2] - bbox[0]
     font_height = bbox[3] - bbox[1]
     
