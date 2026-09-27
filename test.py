@@ -67,12 +67,12 @@ while True:
     t = real_time + deltawall
     print(t)
 
-    bbox = font.getbbox(t)
-    font_width = bbox[2] - bbox[0]
-    font_height = bbox[3] - bbox[1]
+    # bbox = font.getbbox(t)
+    # font_width = bbox[2] - bbox[0]
+    # font_height = bbox[3] - bbox[1]
     
-    x = (display.width // 2) - (font_width // 2)
-    y = (display.height // 2) - (font_height // 2)
+    # x = (display.width // 2) - (font_width // 2)
+    # y = (display.height // 2) - (font_height // 2)
     
     draw.rectangle((0, 0, display.width, display.height), fill=WHITE)
     draw.text((x, y), text, font=font, fill=BLACK)
